@@ -1,0 +1,38 @@
+Simula il comportamento umano negli ordini per un’azienda di computer di medie-grandi dimensioni, che opera in Germania, Francia e Spagna.
+
+Per la Germania genera tra 200 e 400 ordini mensili.
+Per la Francia genera tra 150 e 300 ordini mensili.
+Per la Spagna genera tra 100 e 200 ordini mensili.
+
+Genera i dati per la simulazione per i mesi di settembre e ottobre 2025.
+
+Simula i risultati secondo questa logica:
+
+Per la Germania il consumatore tedesco cerca funzionalità, solidità e valore oggettivo.
+Non si lascia attrarre da nomi evocativi o marketing estetico, ma da chiarezza e concretezza (coerenza tra prezzo e categoria).
+
+Filtra per ambito d’uso (lavoro o casa) → vuole un prodotto adatto al contesto reale.
+Considera categoria → laptop se mobilità, desktop se potenza/stabilità.
+Confronta prezzo → cerca il miglior rapporto qualità/prezzo (no entry-level troppo economici, no top di gamma eccessivi).
+Guarda titolo prodotto → preferisce denominazioni tecniche, con numeri di modello e chiarezza.
+
+Per la Francia il consumatore francese vuole un prodotto che unisca qualità tecnica e un certo stile o prestigio percepito.
+Apprezza i nomi evocativi e la coerenza tra prezzo e design.
+
+Filtra per ambito → privilegia laptop per uso casa (design, estetica), desktop per lavoro (prestazioni).
+Considera titolo prodotto → sensibile a nomi eleganti o evocativi (“Élite”, “Vision”, “Prestige”) che trasmettono immagine di serietà o raffinatezza.
+Analizza prezzo → non necessariamente sceglie il più economico: se un modello costa di più ma comunica professionalità o bel design, lo preferisce.
+
+Per la Spagna Il consumatore spagnolo decide in base a emozione e valore percepito immediato.
+Vuole un buon prezzo, un titolo accattivante, un uso pratico e la sensazione di fare un buon affare.
+
+Parte dal prezzo → valuta se è un’offerta vantaggiosa.
+Poi guarda categoria e ambito → associa rapidamente la funzione.
+Titolo prodotto → importante: i nomi emozionali o dinamici (“SpeedGo”, “PowerFlex”, “SmartLife”) attirano l’attenzione.
+
+Per ogni paese simula anche alcune eccezioni alla logica comune scritta sopra.
+
+Utilizza i dati del catalogo dei prodotti allegati al prompt come prodotti in vendita nella simulazione e fai alcuni casi di ordini per ogni paese in cui la quantità è maggiore di 1 e anche alcuni casi di ordini per ogni paese in cui vengono acquistati prodotti diversi nello stesso ordine.
+
+Fornisci come output della simulazione i dati in questo formato csv:
+Paese, Data, ID_Ordine, Sku, Quantità

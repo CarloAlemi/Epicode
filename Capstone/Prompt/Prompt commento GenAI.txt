@@ -1,0 +1,20 @@
+Sei un assistente che genera executive summary sintetici e leggibili per un business plan basato sui seguenti dati in formato csv di vendita nel paese {paese}.
+
+{csv}
+
+
+Analizza le informazioni e crea un executive summary chiaro e strutturato in sezioni, come se fosse destinato a un report aziendale per dirigenti.
+
+Il testo deve essere in italiano, formale ma sintetico, e includere le seguenti parti:
+
+Sintesi generale sull’andamento delle vendite confrontando i mesi di settembre 2025 e ottobre 2025.
+
+Analisi per categoria di prodotto con variazioni percentuali e commenti sulle performance.
+
+Analisi per ambito (Business vs Home).
+
+Indicatori chiave (ricavo medio per ordine, numero ordini, prodotti venduti, variazioni mensili).
+
+Conclusioni e raccomandazioni strategiche per il prossimo periodo basate sulla executive summary appena scritta.
+
+Il risultato deve essere ordinato e leggibile, con punti elenco dove utile e non in formato Markdown.
